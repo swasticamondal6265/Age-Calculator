@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right , rgb(139, 144, 220) , blue);
+}
+h2{
+    color: yellow;
+    font-size: 3rem;
+    margin-left: 60px;
+}
+.inputbox{
+    margin: 60px;
+    height: 50px;
+    width: 260px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+#date{
+    background-color: brown;
+    color: white;
+    margin-right: 30px;
+    height: 30px;
+    border-radius: 8px;
+}
+button{
+    height: 30px;
+    border-radius: 8px;
+    background-color: orange;
+}
+.result{
+    margin-left: 60px;
+    font-size: 1.25rem;
+    color: white;
+}
